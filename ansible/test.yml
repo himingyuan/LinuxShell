@@ -1,0 +1,6 @@
+---
+- hosts: all
+  remote_user: root
+  tasks:
+  - name: delete /opt/test.log
+    shell: rm -rf /opt/test.log
